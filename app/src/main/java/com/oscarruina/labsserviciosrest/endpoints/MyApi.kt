@@ -6,6 +6,6 @@ import retrofit2.http.GET
 
 interface MyApi {
 
-    @GET("/post")
+    @GET("/posts")
     fun getPost() : Call<List<Post>>
 }
